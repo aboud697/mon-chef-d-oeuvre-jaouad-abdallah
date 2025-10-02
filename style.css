@@ -26,3 +26,20 @@ a {
     text-decoration: none;
     color: black;
 }
+section {
+    padding: 2rem 0;
+    border-top: 1px;
+}
+input, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px;
+}
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+}
